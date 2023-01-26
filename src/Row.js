@@ -22,7 +22,7 @@ function Row({title,isLargeRow, fetchURL}) {
       {
         movies.map(movie=>{
           return <img src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`} 
-          className={`rowposter ${isLargeRow && "largeImage"}`} key={movie.id}/>
+          className={`rowposter ${isLargeRow && "largeImage"}`} key={movie.id} alt="img"/>
         })
       }
        
