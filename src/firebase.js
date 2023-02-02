@@ -3,13 +3,13 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBETiSRJjYuxppDPKTBZxrKvNFJfsEKJsk",
-  authDomain: "project-b72e2.firebaseapp.com",
-  projectId: "project-b72e2",
-  storageBucket: "project-b72e2.appspot.com",
-  messagingSenderId: "328629183998",
-  appId: "1:328629183998:web:89042db38ef6ea653fccaf",
-  measurementId: "G-C7940LEPED"
+  apiKey: "AIzaSyBShiWrOfzj6aP3CDhgGHJR6vz-uG1LNkI",
+  authDomain: "netflix-f4f45.firebaseapp.com",
+  projectId: "netflix-f4f45",
+  storageBucket: "netflix-f4f45.appspot.com",
+  messagingSenderId: "460868955422",
+  appId: "1:460868955422:web:031e80a2e161ad3178ad0f",
+  measurementId: "G-F27YQNB5E2"
   };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
