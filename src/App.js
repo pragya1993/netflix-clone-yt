@@ -16,6 +16,7 @@ function App() {
        if(authUser)
        {
        // login
+       
        dispatch(login({
         uid: authUser.uid,
         email:authUser.email
